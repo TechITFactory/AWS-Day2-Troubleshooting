@@ -1,0 +1,5 @@
+# Force LF everywhere, regardless of the cloning machine's autocrlf setting.
+# Most of this repo is shell scripts and Terraform meant to run on Linux/WSL/Mac —
+# CRLF line endings would break the shebang line and script execution.
+* text=auto eol=lf
+*.sh text eol=lf

@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+.aws/
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+tfplan*
+*.tfplan
+
+# Instructor-only / not shipped to students
+marketing/
+labs/*/.break-state.json
+TESTING-NOTES.md
+TESTING-NOTES-scripts/
+RECORDING-RUNBOOK.md
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+~$*
+
+# Logs / temp
+*.log
+tmp/
